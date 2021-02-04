@@ -34,8 +34,10 @@ class EmpresaController extends Controller {
     public function cadastrarEmpresa(EmpresaRequest $empresaRequest)
     {
         $empresa = $empresaRequest->all();
-        $logotipo = $empresaRequest->logotipo->storeAs('', $empresaRequest->nome.'.png');
-        $empresa['logotipo'] = $logotipo;
+        if ($empresaRequest->logotipo) {
+            $logotipo = $empresaRequest->logotipo->storeAs('', $empresaRequest->nome.'.png');
+            $empresa['logotipo'] = $logotipo;
+        }
         Empresa::create($empresa);
         return redirect()->route('admin.empresas');
     }
