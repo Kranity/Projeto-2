@@ -1,16 +1,16 @@
-1 - Faze o download do Projeto 2
+1 - Faça o download do Projeto 2
 
 2 - Extraia ele para algum local que deseja
 
 3 - Entre na pasta Projeto-2-main
 
-4 - Abra o git bash ou cmd com o path da pasta Projeto-2-main
+4 - Abra o git bash ou cmd com o endereço da pasta Projeto-2-main
 
 5 - Execute o comando: git clone https://github.com/Laradock/laradock.git
 
 6 - Entre na pasta laradock que foi criada
 
-7 - Abra o git bash ou cmd com o path da pasta laradock
+7 - Abra o git bash ou cmd com o endereço da pasta laradock
 
 8 - Execute o comando: cp env-example .env
 
@@ -28,7 +28,7 @@
 
 11 - Volte para pasta Projeto-2-main
 
-12 - Abra o git bash ou cmd com o path da pasta Projeto-2-main
+12 - Abra o git bash ou cmd com o endereço da pasta Projeto-2-main
 
 13 - Execute o comando: php artisan migrate
 
