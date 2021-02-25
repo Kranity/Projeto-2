@@ -18,7 +18,7 @@
 
 10 - Execute o comando: docker-compose up -d nginx mysql phpmyadmin
 
-    Obs: Caso ocorra algum erro de porta
+    Obs: Caso ocorra algum erro de porta ao fazer o passo 10
     
     1 - Abra o arquivo .env que está dentro da pasta laradock
     
